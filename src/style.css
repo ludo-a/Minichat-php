@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(77, 77, 77);
+}
+
+p.message{
+    display: table;
+    background-color:gainsboro;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 12px;
+    padding: 7px;
+}
+#container p:last-child{
+    background-color: rgb(135, 198, 235);
+    margin-left: 30px;
+}
+input{
+    width:100px;
+}
+form{
+    margin-top: 20px;
+    text-align: center;
+}
+label,input,textarea,#btnSend{
+    font-size: 17px;
+}
+label,.point{
+    color: honeydew;
+}
+hr{
+    margin-top: 80px;
+}
+#butOldMessOn,#butOldMessOff{
+    width:130px;
+    height: 130px;
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+    padding:7px;
+    padding: 10px;
+    border-radius: 70px;
+}
+#butOldMessOn{
+    background-color: rgb(235, 235, 235);
+}
+#butOldMessOff{
+    background-color: rgb(107, 201, 255);
+}
+
+
